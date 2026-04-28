@@ -1,0 +1,11 @@
+credentials:
+  github-api:
+    client_id: team1-github
+    client_secret_ref: team1-github-secret
+    token_endpoint: https://keycloak.example.com/realms/openshell/protocol/openid-connect/token
+    scopes: ["repo", "read:org"]
+  kagenti-backend:
+    client_id: team1-kagenti
+    client_secret_ref: team1-kagenti-secret
+    token_endpoint: https://keycloak.example.com/realms/openshell/protocol/openid-connect/token
+    scopes: ["kagenti:read"]
